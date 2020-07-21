@@ -1,0 +1,7 @@
+#! /bin/bash
+
+# get ip addresss
+sh /home/pi/dropbox/ip.sh
+
+# upload ip address to dropbox
+python /home/pi/dropbox/upload.py

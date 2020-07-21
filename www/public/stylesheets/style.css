@@ -1,0 +1,101 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font: 14px Arial, sans-serif;
+}
+
+.container {
+    height: 850px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #747876), color-stop(0.87, #FFFFFF) );
+    background-image: -o-linear-gradient(bottom, #747876 0%, #FFFFFF 87%);
+    background-image: -moz-linear-gradient(bottom, #747876 0%, #FFFFFF 87%);
+    background-image: -webkit-linear-gradient(bottom, #747876 0%, #FFFFFF 87%);
+    background-image: -ms-linear-gradient(bottom, #747876 0%, #FFFFFF 87%);
+    background-image: linear-gradient(to bottom, #747876 0%, #FFFFFF 87%);
+}
+
+h1 {
+    background: #3a3a3a;
+    color: #ffffff;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+}
+
+.imageHolder {
+    position: relative;
+}
+
+img {
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 680px;
+    height: 480px;
+    border: 5px solid #3a3a3a;
+}
+
+.playImage {
+    background: url("../images/a.png") no-repeat center center;
+    background-color: #3a3a3a;
+}
+
+.playImage:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.status {
+    margin-top: 600px;
+}
+
+.tg-table-light {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0 auto;
+}
+
+.tg-table-light td, .tg-table-light th {
+    border: 1px #bbb solid;
+    font-family: sans-serif;
+    font-size: 100%;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.tg-table-light th {
+    color: #333;
+}
+
+.tg-table-light .tg-even td {
+    background-color: #eee;
+}
+
+.tg-table-light th {
+    background-color: #ddd;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+.tg-table-light tr:hover td, .tg-table-light tr.even:hover td {
+    background-color: #FCFBE3;
+}
+
+.tg-bf {
+    font-weight: bold;
+}
+
+.tg-center {
+    text-align: center;
+}
+
+.tg-center-status-1, .tg-center-status-2, .tg-center-status-3 {
+    color: #ffffff;
+}

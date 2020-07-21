@@ -1,0 +1,23 @@
+extends layout
+
+block content
+  div.container
+    h1= title
+    div.imageHolder
+      img(src='http://140.203.251.232:8080/?action=snapshot', alt='Counld not connect to Webcam')#webcam
+      img().playImage#play
+    div.status
+      table.tg-table-light
+        tr
+          th.tg-center Connections:
+          th.tg-center Status:
+        tr
+          td.tg-center Leap Motion Decice
+          td.tg-center-status-1
+        tr
+          td.tg-center Leap Websocket
+          td.tg-center-status-2
+        tr
+          td.tg-center Client-Server Websocket
+          td.tg-center-status-3
+
